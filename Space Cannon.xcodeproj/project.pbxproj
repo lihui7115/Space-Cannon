@@ -23,6 +23,8 @@
 		57AF9AD218CF7ADF00717742 /* ScoreBoard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9ACF18CF7ADF00717742 /* ScoreBoard@2x.png */; };
 		57AF9AD318CF7ADF00717742 /* Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AF9AD018CF7ADF00717742 /* Title@2x.png */; };
 		57AF9AD618CF7B1A00717742 /* CCMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF9AD518CF7B1A00717742 /* CCMenu.m */; };
+		57EA2CA118F58C5F00549045 /* GreenCannon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EA2C9F18F58C5F00549045 /* GreenCannon@2x.png */; };
+		57EA2CA218F58C5F00549045 /* MultiShotPowerUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EA2CA018F58C5F00549045 /* MultiShotPowerUp@2x.png */; };
 		57FA965618A8EEFE006ED483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965518A8EEFE006ED483 /* Foundation.framework */; };
 		57FA965818A8EEFE006ED483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965718A8EEFE006ED483 /* CoreGraphics.framework */; };
 		57FA965A18A8EEFF006ED483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965918A8EEFF006ED483 /* UIKit.framework */; };
@@ -82,6 +84,8 @@
 		57AF9AD018CF7ADF00717742 /* Title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Title@2x.png"; sourceTree = "<group>"; };
 		57AF9AD418CF7B1A00717742 /* CCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMenu.h; sourceTree = "<group>"; };
 		57AF9AD518CF7B1A00717742 /* CCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMenu.m; sourceTree = "<group>"; };
+		57EA2C9F18F58C5F00549045 /* GreenCannon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenCannon@2x.png"; sourceTree = "<group>"; };
+		57EA2CA018F58C5F00549045 /* MultiShotPowerUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MultiShotPowerUp@2x.png"; sourceTree = "<group>"; };
 		57FA965218A8EEFE006ED483 /* Space Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FA965518A8EEFE006ED483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57FA965718A8EEFE006ED483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -245,6 +249,8 @@
 		57FA969118A8EF5A006ED483 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				57EA2C9F18F58C5F00549045 /* GreenCannon@2x.png */,
+				57EA2CA018F58C5F00549045 /* MultiShotPowerUp@2x.png */,
 				5720534618D3225B002EA2DD /* HaloX@2x.png */,
 				57AF9ACE18CF7ADF00717742 /* PlayButton@2x.png */,
 				57AF9ACF18CF7ADF00717742 /* ScoreBoard@2x.png */,
@@ -352,6 +358,7 @@
 				57AF9AD218CF7ADF00717742 /* ScoreBoard@2x.png in Resources */,
 				5742FD8818C62E6200F963DE /* LifeBarExplosion.sks in Resources */,
 				57FA96A618A8EF5A006ED483 /* BlueBar@2x.png in Resources */,
+				57EA2CA118F58C5F00549045 /* GreenCannon@2x.png in Resources */,
 				57FA966218A8EEFF006ED483 /* InfoPlist.strings in Resources */,
 				57FA96A318A8EF5A006ED483 /* Ammo5@2x.png in Resources */,
 				57FA969F18A8EF5A006ED483 /* Ammo1@2x.png in Resources */,
@@ -363,6 +370,7 @@
 				57FA967518A8EEFF006ED483 /* Images.xcassets in Resources */,
 				57FA96A118A8EF5A006ED483 /* Ammo3@2x.png in Resources */,
 				57FA966B18A8EEFF006ED483 /* Main.storyboard in Resources */,
+				57EA2CA218F58C5F00549045 /* MultiShotPowerUp@2x.png in Resources */,
 				57FA969E18A8EF5A006ED483 /* Ammo0@2x.png in Resources */,
 				57FA96A018A8EF5A006ED483 /* Ammo2@2x.png in Resources */,
 				57AF9AA818CE158E00717742 /* Bounce.caf in Resources */,
