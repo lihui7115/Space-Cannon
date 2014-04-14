@@ -114,8 +114,16 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
 
 -(void)shoot
 {
-    if (self.ammo > 0) {
-        self.ammo--;
+    int availableAmmo = 2;
+    
+    for (SKNode *node in _mainLayer.children) {
+        if ([node.name isEqualToString:@"ball"]) {
+            availableAmmo--;
+        }
+    }
+    
+    if (availableAmmo > 0) {
+        //self.ammo--;
     
         // Create ball node.
         SKSpriteNode *ball = [SKSpriteNode spriteNodeWithImageNamed:@"Ball"];
