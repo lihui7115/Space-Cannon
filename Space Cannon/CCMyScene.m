@@ -91,13 +91,13 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
         _ammoDisplay.anchorPoint = CGPointMake(0.5, 0.0);
         _ammoDisplay.position = _cannon.position;
         [_mainLayer addChild:_ammoDisplay];
-        self.ammo = 5;
+        self.ammo = 2;
         
-        SKAction *incrementAmmo = [SKAction sequence:@[[SKAction waitForDuration:1],
+        /*SKAction *incrementAmmo = [SKAction sequence:@[[SKAction waitForDuration:1],
                                                        [SKAction runBlock:^{
             self.ammo++;
         }]]];
-        [self runAction:[SKAction repeatActionForever:incrementAmmo]];
+        [self runAction:[SKAction repeatActionForever:incrementAmmo]];*/
         
     }
     return self;
@@ -105,7 +105,7 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
 
 -(void)setAmmo:(int)ammo
 {
-    if (ammo >= 0 && ammo <= 5) {
+    if (ammo >= 0 && ammo <= 2) {
         _ammo = ammo;
         _ammoDisplay.texture = [SKTexture textureWithImageNamed:[NSString stringWithFormat:@"Ammo%d", ammo]];
     }
@@ -173,6 +173,7 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
         
         [firstBody.node removeFromParent];
         [secondBody.node removeFromParent];
+        self.ammo++;
     }
     
 }
@@ -211,6 +212,7 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
     [_mainLayer enumerateChildNodesWithName:@"ball" usingBlock:^(SKNode *node, BOOL *stop) {
         if (!CGRectContainsPoint(self.frame, node.position)) {
             [node removeFromParent];
+            self.ammo++;
         }
     }];
 }
