@@ -10,6 +10,7 @@
 		5742FD8818C62E6200F963DE /* LifeBarExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5742FD8718C62E6200F963DE /* LifeBarExplosion.sks */; };
 		5780EB1A18C4D5E700B993B2 /* HaloExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5780EB1818C4D5E700B993B2 /* HaloExplosion.sks */; };
 		5780EB1B18C4D5E700B993B2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780EB1918C4D5E700B993B2 /* spark.png */; };
+		578A1C2A18FC1CE400DEA152 /* BounceExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 578A1C2818FC1CE400DEA152 /* BounceExplosion.sks */; };
 		57FA965618A8EEFE006ED483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965518A8EEFE006ED483 /* Foundation.framework */; };
 		57FA965818A8EEFE006ED483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965718A8EEFE006ED483 /* CoreGraphics.framework */; };
 		57FA965A18A8EEFF006ED483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA965918A8EEFF006ED483 /* UIKit.framework */; };
@@ -54,6 +55,7 @@
 		5742FD8718C62E6200F963DE /* LifeBarExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LifeBarExplosion.sks; sourceTree = "<group>"; };
 		5780EB1818C4D5E700B993B2 /* HaloExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HaloExplosion.sks; sourceTree = "<group>"; };
 		5780EB1918C4D5E700B993B2 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		578A1C2818FC1CE400DEA152 /* BounceExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BounceExplosion.sks; path = ../BounceExplosion.sks; sourceTree = "<group>"; };
 		57FA965218A8EEFE006ED483 /* Space Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FA965518A8EEFE006ED483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57FA965718A8EEFE006ED483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -160,8 +162,9 @@
 				57FA967418A8EEFF006ED483 /* Images.xcassets */,
 				57FA965E18A8EEFF006ED483 /* Supporting Files */,
 				5780EB1818C4D5E700B993B2 /* HaloExplosion.sks */,
-				5780EB1918C4D5E700B993B2 /* spark.png */,
+				578A1C2818FC1CE400DEA152 /* BounceExplosion.sks */,
 				5742FD8718C62E6200F963DE /* LifeBarExplosion.sks */,
+				5780EB1918C4D5E700B993B2 /* spark.png */,
 			);
 			path = "Space Cannon";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				57FA96A918A8EF5A006ED483 /* Starfield@2x.png in Resources */,
 				57FA96A718A8EF5A006ED483 /* Cannon@2x.png in Resources */,
 				57FA96A218A8EF5A006ED483 /* Ammo4@2x.png in Resources */,
+				578A1C2A18FC1CE400DEA152 /* BounceExplosion.sks in Resources */,
 				5780EB1B18C4D5E700B993B2 /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

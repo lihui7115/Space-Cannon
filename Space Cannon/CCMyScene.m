@@ -151,6 +151,7 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
         ball.physicsBody.friction = 0.0;
         ball.physicsBody.categoryBitMask = kCCBallCategory;
         ball.physicsBody.collisionBitMask = kCCEdgeCategory;
+        ball.physicsBody.contactTestBitMask = kCCEdgeCategory;
     }
     
 }
@@ -207,6 +208,9 @@ static inline CGFloat randomInRange(CGFloat low, CGFloat high)
         
         [firstBody.node removeFromParent];
         [secondBody.node removeFromParent];
+    }
+    if (firstBody.categoryBitMask == kCCBallCategory && secondBody.categoryBitMask == kCCEdgeCategory) {
+        [self addExplosion:contact.contactPoint withName:@"BounceExplosion"];
     }
     
 }
